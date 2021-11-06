@@ -1,0 +1,62 @@
+body {
+    background-image: url("images/pattern-background-desktop.svg");
+    background-color: skyblue;
+}
+
+.container {
+    border: solid #ccc 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    flex-direction: column;
+}
+.imgbox {
+    width: 100%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+.container h2 {
+    text-align: center;
+    color: rgb(5, 5, 56);
+    text-shadow: 1px 1px 3px #ccc;
+}
+.features {
+    background-color: snow;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    width: 30%;
+}
+.container p {
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 1px 1px 3px rgb(173, 167, 167);
+    color: rgb(78, 78, 85);
+    letter-spacing: normal;
+    font-size: 13px;
+}
+
+.audio {
+    display: inherit;
+    justify-content: inherit;
+    height: inherit;
+    flex-direction: inherit;
+}
+
+.audio img {
+    padding-right:5px;
+}
+
+button {
+    background-color: rgb(99, 2, 179);
+    color: white;
+    box-align:center;
+    width: 70%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    padding: 10px;
+}
