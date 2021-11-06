@@ -1,6 +1,7 @@
 body {
     background-image: url("images/pattern-background-desktop.svg");
     background-color: skyblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .container {
@@ -23,11 +24,8 @@ body {
 }
 .features {
     background-color: snow;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-    border-bottom-left-radius: 12px;
-    border-bottom-right-radius: 12px;
     width: 30%;
+    border-radius: 12px;
 }
 .container p {
     text-align: center;
@@ -50,13 +48,30 @@ body {
 }
 
 button {
-    background-color: rgb(99, 2, 179);
+    background-color: rgb(84, 11, 219);
     color: white;
-    box-align:center;
-    width: 70%;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-    border-bottom-left-radius: 12px;
-    border-bottom-right-radius: 12px;
     padding: 10px;
+    width: 75%;
+    border-radius: 12px;
+    border: 0;
+}
+
+.button {
+    text-align: center;
+}
+
+.link {
+    text-align:center;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(129, 125, 125);
+    font-size: 11px;
+    font-weight: bold;
+}
+.imgicon {
+    text-align: center;
+    background-color: #ccc;
 }
