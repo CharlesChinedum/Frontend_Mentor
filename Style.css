@@ -37,14 +37,46 @@ body {
 }
 
 .audio {
-    display: inherit;
-    justify-content: inherit;
-    height: inherit;
-    flex-direction: inherit;
+    display:flex;
+    justify-content: right;
+    align-items: center;
+    padding-right: 50px;
+    padding-bottom: 13px;
+    background-color: rgb(247, 239, 239) ;
 }
 
-.audio img {
-    padding-right:5px;
+.annualplan {
+    position:absolute;
+    left:560px;
+    top:368px;
+    width:100px;
+    height:37px;
+    z-index:7;
+}
+
+.price {
+    position:absolute;
+    left:567px;
+    top:390px;
+    width:37px;
+    height:37px;
+    z-index:7;
+}
+
+.audioicon {
+    position:absolute;
+    left:510px;
+    top:380px;
+    width:40px;
+    height:40px;
+    z-index:7;
+}
+
+.link2 {
+    text-align:right;
+    padding: 20px;
+    color: blue;
+    text-decoration: underline;
 }
 
 button {
@@ -70,8 +102,4 @@ a {
     color: rgb(129, 125, 125);
     font-size: 11px;
     font-weight: bold;
-}
-.imgicon {
-    text-align: center;
-    background-color: #ccc;
 }
