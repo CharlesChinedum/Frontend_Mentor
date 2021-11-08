@@ -5,7 +5,6 @@ body {
 }
 
 .container {
-    border: solid #ccc 3px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,11 +37,10 @@ body {
 
 .audio {
     display:flex;
-    justify-content: right;
+    justify-content: center;
     align-items: center;
     padding-right: 50px;
     padding-bottom: 13px;
-    background-color: rgb(247, 239, 239) ;
 }
 
 .annualplan {
@@ -55,9 +53,9 @@ body {
 }
 
 .price {
-    position:absolute;
-    left:567px;
-    top:390px;
+    position:relative;
+    left:-30px;
+    top:45px;
     width:37px;
     height:37px;
     z-index:7;
@@ -73,10 +71,16 @@ body {
 }
 
 .link2 {
-    text-align:right;
+    text-align: right;
     padding: 20px;
     color: blue;
     text-decoration: underline;
+    position:relative;
+    left:100px;
+    top:38px;
+    width:37px;
+    height:37px;
+    z-index:7;
 }
 
 button {
@@ -88,9 +92,15 @@ button {
     border: 0;
 }
 
+button:hover {
+    box-shadow: 0 10px lightgrey;
+    cursor: pointer;
+}
+
 .button {
     text-align: center;
 }
+
 
 .link {
     text-align:center;
